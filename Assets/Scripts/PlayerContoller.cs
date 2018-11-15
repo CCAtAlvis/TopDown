@@ -17,7 +17,7 @@ public class PlayerContoller : MonoBehaviour
         // mouse button click
         if (Input.GetButtonUp("Fire1"))
         {
-            Instantiate(bulletPistol, bulletSpawnPoint.position + 2f*bulletSpawnPoint.forward, bulletSpawnPoint.rotation, ParentSpawn);
+            Instantiate(bulletPistol, bulletSpawnPoint.position + bulletSpawnPoint.forward, bulletSpawnPoint.rotation, ParentSpawn);
         }
 
         // movement: forward

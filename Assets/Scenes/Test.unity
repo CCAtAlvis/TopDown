@@ -191,10 +191,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 65723964217760180, guid: 48ce2a663feeb06479ddfe896e2b6778,
+    - target: {fileID: 114697038718058802, guid: 48ce2a663feeb06479ddfe896e2b6778,
         type: 2}
-      propertyPath: m_IsTrigger
-      value: 1
+      propertyPath: TTL
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 48ce2a663feeb06479ddfe896e2b6778, type: 2}

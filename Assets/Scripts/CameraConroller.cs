@@ -6,8 +6,8 @@ public class CameraConroller : MonoBehaviour
     public Vector3 cameraPositionOffset;
 
     private Vector3 cameraRotation = new Vector3(90.0f, 0f);
-    private bool playerRunning = false;
-    private Vector3 pivotPoint;
+    // private bool playerRunning = false;
+    // private Vector3 pivotPoint;
 
     // Update is called once per frame
     void Update ()
